@@ -1,7 +1,7 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://admin:admin1@ds143451.mlab.com:43451/todoapps', { useNewUrlParser: true });
+mongoose.connect('your mongo db', { useNewUrlParser: true });
 
 var todoSchema = new mongoose.Schema({
     item:String
