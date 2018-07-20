@@ -1,7 +1,7 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-mongoose.connect('your mongo db', { useNewUrlParser: true });
+mongoose.connect('your username and pass mongooDB', { useNewUrlParser: true });
 
 var todoSchema = new mongoose.Schema({
     item:String
